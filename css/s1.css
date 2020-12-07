@@ -1,0 +1,205 @@
+body
+{
+    margin: auto;
+    padding: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url('../assets/15.png');
+}
+
+header
+{
+    position: relative;
+    max-width: auto;
+    margin: 30px;
+    padding: auto;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+
+.logo
+{
+    color: limegreen;
+    height: auto;
+    font-size: 32px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+nav
+{
+    float: none;
+    margin-left: 44%;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+nav ul li a
+{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #262626;
+}
+
+.center .avatar img
+{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 5%;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+
+.center
+{
+    width: 55%;
+    background-color: rgba(0, 0, 0, 1);
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 25%;
+    
+}
+
+.content
+{
+    padding: auto;
+    margin: auto;
+    color: white;
+}
+
+h1
+{
+    color: wheat
+}
+
+.sm
+{
+    color: wheat;
+}
+
+.content h2, p
+{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.content h2
+{
+    font-weight: 400;
+}
+
+.content h3
+{
+    margin-top: 20px;
+}
+
+div .social i
+{
+    padding: 0 10px;
+    font-size: 30px;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 2.6);
+}
+
+.btn
+{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.active, .btn:hover
+{
+    background-color: limegreen;
+    color: white;
+}
+
+.profile-card
+{
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image-container
+{
+    position: relative;
+}
+
+.title
+{
+    color: limegreen;
+    height: auto;
+    font-size: 32px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 800;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.mian-container
+{
+    color: limegreen;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background-color: black;
+}
+
+.main-container-1
+{
+    color: limegreen;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: black;
+}
+
+.main-container-2
+{
+    color: limegreen;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: black;
+}
+
+.p1
+{
+    padding-top: 8px;
+}
